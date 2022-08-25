@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_nav"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:icon="@drawable/ic_akar_icons_home"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Home"
+        />
+
+
+    <item
+        android:id="@+id/dashboard_nav"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:icon="@drawable/ic_akar_icons_dashboard"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Dashboard"/>
+
+
+    <item
+        android:id="@+id/profile_nav"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:icon="@drawable/ic_akar_icons_person"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Profile"/>
+
+
+    <item
+        android:id="@+id/setting_nav"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:icon="@drawable/ic_eva_settings_2_outline"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Settings"/>
+
+
+
+
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment"
+    android:background="@color/black"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:id="@+id/cardMaster"
+                app:cardCornerRadius="@dimen/_10sdp"
+
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradiant_bg"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_ant_design_code_sandbox_circle_filled"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Master"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:id="@+id/cardTranscation"
+                app:cardCornerRadius="@dimen/_10sdp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradiant_bg"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_fluent_arrow_down_12_filled"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:id="@+id/cardReport"
+                app:cardCornerRadius="@dimen/_10sdp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradiant_bg"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_eva_file_remove_fill"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reports"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

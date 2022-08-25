@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Select">
+        <item>Select</item>
+        <item>Credit Purchase</item>
+        <item>Credit Sales</item>
+        <item>Metal Issue</item>
+        <item>Metal Receipt</item>
+        <item>Cash Credit</item>
+        <item>Cash Debit</item>
+    </string-array>
+
+
+
+    <string-array name="kdm">
+        <item>916 KDM</item>
+        <item>Katcha</item>
+        <item>Pure</item>
+        <item>None</item>
+
+    </string-array>
+
+</resources>
