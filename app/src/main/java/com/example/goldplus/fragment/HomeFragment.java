@@ -32,8 +32,6 @@ public class HomeFragment extends Fragment {
         cardMaster = root.findViewById(R.id.cardMaster);
         cardTransaction = root.findViewById(R.id.cardTranscation);
         cardReports = root.findViewById(R.id.cardReport);
-
-
         cardMaster.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
