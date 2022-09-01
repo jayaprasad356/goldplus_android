@@ -12,6 +12,21 @@
         <entry key="..\:/Studio Projects/Goldplus/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Studio Projects/Goldplus/app/src/main/res/layout/activity_master.xml" value="0.17552083333333332" />
         <entry key="..\:/Studio Projects/Goldplus/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_allfilter.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_areawiseledgerreport.xml" value="0.33" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_dailytransaction.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_dealergoldmithmaster.xml" value="0.22" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_dealerledgerreport.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_master.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_openingmaster.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_stock.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_suspense.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/activity_transactionregister.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/bottomsheet_lyt.xml" value="0.20416666666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/bottomsheet_openingmaster.xml" value="0.203125" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/fragment_sundry_debit.xml" value="0.19010416666666666" />
+        <entry key="..\:/goldplus_android/app/src/main/res/layout/fragment_sundrycredit.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

@@ -5,11 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class MasterActivity extends AppCompatActivity {
 
     LinearLayout llDealergoldmithmaster,llOpeningmaster;
+    ImageView btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,14 @@ public class MasterActivity extends AppCompatActivity {
 
         llDealergoldmithmaster = findViewById(R.id.llDealergoldmithmaster);
         llOpeningmaster = findViewById(R.id.llOpeningmaster);
+
+        btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
 
         llDealergoldmithmaster.setOnClickListener(new View.OnClickListener() {

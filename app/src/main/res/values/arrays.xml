@@ -20,5 +20,16 @@
         <item>None</item>
 
     </string-array>
+    <string-array name="Creditor" >
+
+        <item>Sundry Creditors</item>
+        <item>Sundry Debitors</item>
+
+    </string-array>
+    <string-array name="any" >
+
+        <item>Any</item>
+
+    </string-array>
 
 </resources>

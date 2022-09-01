@@ -36,14 +36,14 @@
                 android:backgroundTint="@color/white"
                 />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Suspense account"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_14sdp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Suspense account"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tabs"
-                android:background="@color/primaryColor"
+                android:background="@drawable/gradiant_bg"
                 android:layout_marginTop="@dimen/_10sdp"
                 app:tabInlineLabel="true"
                 app:tabTextColor="@color/gray_txtColor"
